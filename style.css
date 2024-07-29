@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color:#031836;
+}
+h1{
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.05em ;
+    text-align: left; 
+    line-height: 4rem;   
+}
+.container{
+    width: 500px;
+    height: 600px;
+    margin:0 auto;
+    margin-top: 50px;
+    line-height: 3rem;
+    background-color: #18355d;
+    padding: 50px;
+    border-radius: 10px;
+}
+span{
+    color:#d5df4a;
+    font-size:50px;
+}
+.p0{
+    color:#9cb5c3;
+    font-size:20px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 2rem;
+}
+.p1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.button{
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #031836;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: #d5df4a;
+    color: #031836;
+}
+.button:active{
+    background-color: #9cb5c3;
+    color: #031836;
+    transform: translateY(2px);
+}
+hr{
+    margin:50px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Password1, #Password2 {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    background-color: #214a85;
+    color: #d5df4a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#Password1:hover, #Password2:hover{
+    background-color: #48658f;
+    color: #8f962b;
+}
+button{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #d5df4a;
+    color: #031836;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #9cb5c3;
+}
+button:active{
+    background-color: #b9d9eb;
+    color: #031836;
+    transform: translateY(2px);
+}
+.choose-btn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
